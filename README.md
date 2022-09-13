@@ -14,3 +14,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## How to run the chrome extension
+
+1. open `chrome://extensions/` and enable `Developer mode`
+2. `flutter build web --web-renderer html --csp`
+3. Load unpacked app from `build/web/`
